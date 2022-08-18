@@ -1,6 +1,5 @@
-import { Controller, Get, Res, StreamableFile } from '@nestjs/common';
+import { Controller, Get, StreamableFile } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
-import { Response } from 'express';
 import { createReadStream } from 'fs';
 import { join } from 'path';
 import { AppService } from './app.service';
