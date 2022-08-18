@@ -17,7 +17,7 @@ This is an example on how to make use of swagger customJs option.
 
 As of now, the swagger customJs option requires a path to a custom js file.
 
-This is provided via the endpoint http://localhost:3000/customJs.
+This is provided via the endpoint `http://localhost:3000/customJs`.
 
 On Swagger UI loading, the path is called and the js file retrieved.
 
